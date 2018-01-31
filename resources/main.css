@@ -1,0 +1,78 @@
+﻿<style>
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+</style>
+*{
+	box-sizing: border-box;
+}
+body{
+	max-width: 60em;
+	margin:auto;
+	display: grid;
+  	grid-template-columns: 1fr;
+  	grid-template-areas: "header" "wrapper" "footer";
+}
+header{
+	display: grid;
+	grid-area: header;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Rammetto One', cursive;
+	border-bottom: 2px solid black;
+
+}
+section{
+	display: grid;
+	grid-area: wrapper;
+	grid-template-columns: 50% 50%;
+  	grid-template-areas: "dalkur1 dalkur2";
+}
+.dalkur_1{
+	display: grid;
+	grid-area:dalkur1; 
+	border-right: 2px solid black;
+}
+.mynd{
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+.dalkur_1 img{
+	position: relative;
+	width: 100%;
+}
+.fyrirsogn{
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	font-size: 22px;
+}
+.heim{
+	font-style: italic;
+	margin: 1em;
+	padding: 0em;
+}
+ul{
+	margin-bottom: 9em;
+}
+li{
+	margin: .6em;
+}	
+.dalkur_2{
+	display: grid;
+	grid-area:dalkur2; 
+}
+.dalkur_2 .texti{
+	margin: 1em;
+	margin-top: 5.3em;
+}
+.dalkur_2 .auther{
+	margin: 1em;
+	padding: 0em;
+
+}
+footer{
+	display: grid;
+	grid-area: footer;
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
