@@ -1,4 +1,4 @@
-from bottle import route, run, template, static_file,error
+from bottle import *
 
 
 frett=[
