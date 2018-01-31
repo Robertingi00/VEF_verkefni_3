@@ -21,7 +21,7 @@ frett=[
      'auther':'BMW Fordson',
      },
 
-    {'title':'Hvort er betri appel eða windos',
+    {'title':'Verður leyft gæludýr í strætó',
      'text':'Umhverfis- og auðlindaráðuneytið hefur skilað Strætó bs áliti sínu varðandi undanþágu á reglugerð um hollustuhætti sem myndi leyfa gæludýr í Strætó í eitt ár. Um er að ræða tilraunaverkefni og verður bréf ráðuneytisins tekið fyrir á fundi stjórnar Strætó á föstudag..',
      'pictur':'straeto.jpg',
      'auther':'Ég sveinsson',
