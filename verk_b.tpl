@@ -22,7 +22,7 @@
 				<li><a href="/frettir/1">Krakki fastur í leikfangavél</a></li>
 				<li><a href="/frettir/2">Nizzan með nýjanbíl</a></li>
 				<li><a href="/frettir/3">Verða gæludýr leifð í strætó</a></li>
-				<li><a href="/frettir/4">Er salt áfengi?</a></li>
+				<li><a href="/frettir/4">Fara þessir að koma til landsins?</a></li>
 			</ul>	
 		</article>
 	</section>
