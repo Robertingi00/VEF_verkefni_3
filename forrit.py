@@ -1,4 +1,4 @@
-from bottle import route, run, template, static_file,error
+from bottle import route, run, template, static_file,error, os
 
 
 frett=[
@@ -67,4 +67,4 @@ def error404(error):
     return '<h1>Þessi siða er ekki til</h1>' \
            '<a href="/verk2">Til baka</a>'
 
-run()
+run(host="0.0.0.0", port=os.environ.get('PORT'))
