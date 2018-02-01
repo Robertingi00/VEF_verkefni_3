@@ -1,4 +1,4 @@
-from bottle import *
+from bottle import route, run, template, static_file,error
 
 
 frett=[
@@ -21,7 +21,7 @@ frett=[
      'auther':'BMW Fordson',
      },
 
-    {'title':'Verður leyft gæludýr í strætó',
+    {'title':'Hvort er betri appel eða windos',
      'text':'Umhverfis- og auðlindaráðuneytið hefur skilað Strætó bs áliti sínu varðandi undanþágu á reglugerð um hollustuhætti sem myndi leyfa gæludýr í Strætó í eitt ár. Um er að ræða tilraunaverkefni og verður bréf ráðuneytisins tekið fyrir á fundi stjórnar Strætó á föstudag..',
      'pictur':'straeto.jpg',
      'auther':'Ég sveinsson',
@@ -67,4 +67,4 @@ def error404(error):
     return '<h1>Þessi siða er ekki til</h1>' \
            '<a href="/verk2">Til baka</a>'
 
-run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+run()
